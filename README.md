@@ -158,3 +158,15 @@ $ inventory_report <caminho_do_arquivo_input> <tipo_de_relatório>
 📌 A função `sys.argv` deve ser utilizada para receber a entrada de dados da pessoa usuária.
 
 ✍️  Teste manual: dentro de um ambiente virtual onde seu projeto foi configurado, digite o comando `inventory_report parametro_1 parametro_2`, assim você conseguirá interagir com o menu.
+
+
+### To run:
+
+1. Clone the repository
+  * `git clone git@github.com:thiagopcdev/Project-Inventory-Report.git`
+2. Enter the repository folder you just cloned:
+  * `cd SD-012-PROJECT-INVENTORY-REPORT`
+3. Create the virtual environment for the project:
+  * `python3 -m venv .venv && source .venv/bin/activate`
+4. Install the dependencies:
+  * `python3 -m pip install -r dev-requirements.txt`
